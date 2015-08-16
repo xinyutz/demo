@@ -1,0 +1,143 @@
+*{margin: 0;padding: 0;font-family:"宋体","Arial";}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+button{cursor:pointer;}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	background-color: #222729;
+}
+.top{
+	text-align: center;
+}
+.logo{
+	position: relative;
+	top: 4em;
+}
+.logo h1{
+	color: #fff;
+	margin-top: 35px;
+}
+.nav{
+	position: relative;
+	top: 100px;
+}
+.nav li{
+	margin-top: 12px;
+}
+.nav a{
+	font-size: 1.4em;
+	color: #fff;
+	opacity: 0.5;
+}
+.img{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 100px;
+}
+#main{
+	position: relative;
+	margin-left: 300px;
+	text-align: center;
+}
+#backImg{
+	background-color: #697481;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+#homePapg,#domePage,#videoPage{
+	position: relative;
+}
+#homePapg .topLabel{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 800px;
+	background: -webkit-linear-gradient(#E8FFFF,#B7DAEA);
+	background: -moz-linear-gradient(#E8FFFF,#B7DAEA);
+	border-radius: 0 0 15px 15px;
+	box-shadow: 4px 4px #5E666E,-4px 0px #5E666E;
+}
+.topLabel dl{
+	text-align: left;
+	position: relative;
+	top: 25px;
+}
+.topLabel dt{
+	padding: 15px 15px 20px 20px;
+	font-size: 30px;
+}
+.topLabel dd{
+	font-size: 26px;
+	color:#53B5C1;
+	background-color: #3A3C42;
+}
+#demoWall{
+	position: relative;	
+	margin: 0 auto;
+	width: 600px;
+	height: 1000px;
+	margin-top: 50px;
+	background-color: #EFEFEF;
+	border-radius: 10px;
+	box-shadow: 3px 3px #5E666E,-3px -3px #5E666E;
+}
+#demoWall .demoTitle{
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+	height: 100px;
+	background: -webkit-linear-gradient(#E8FFFF,#B7DAEA);
+	background: -moz-linear-gradient(#E8FFFF,#B7DAEA);
+	color: #00588F;
+}
+.demoTitle h3{
+	font:28px/100px "微软雅黑";
+}
+.opBut{
+	width: 150px;
+    height: 20px;	
+    border: 1px solid #B7DAEA;
+    outline:none;
+	background: -webkit-linear-gradient(#E8FFFF,#B7DAEA);
+	background: -moz-linear-gradient(#E8FFFF,#B7DAEA);
+	margin:5px;
+	margin-right: 85%;
+	border-radius: 10px;
+}
+.demoText{
+	position: relative;
+	margin-top: 5px;
+	width: 100%;
+	height: 0px;
+	background-color: #3A3C42;
+	overflow: hidden;
+}
+.closeDiv{
+	-webkit-transition:height 1s;
+	-moz-transition:height 1s;
+	height: 0px;
+}
+.openDiv{
+	-webkit-transition:height 1.5s;
+	-moz-transition:height 1.5s;
+	height:150px;
+}
+.demoText p{
+	font-size: 1.2em;
+	color: #53B5C1;
+}
+.demoText span{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.demoText a{
+	color: #5FA731;
+}
